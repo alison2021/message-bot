@@ -7,9 +7,9 @@
         "bot",
         "broadcast Bot",
         "Telegram Bot",
-        "NacBots"
+        
     ],
-    "website": "https://t.me/NacBots",
+    "website": "https://t.me/mrbotslist",
     "repository": "",
     "success_url": "",
     "env": {
@@ -40,7 +40,7 @@
         },
         "DB_NAME": {
             "description": "A database name without white space(example : broadcastbot)",
-            "value": "NACBots",
+            "value": "mrbotslist",
             "required": false
         },
         "AUTH_USERS": {
