@@ -40,7 +40,7 @@
         },
         "DB_NAME": {
             "description": "A database name without white space(example : broadcastbot)",
-            "value": "NACBots",
+            "value": "",
             "required": false
         },
         "AUTH_USERS": {
