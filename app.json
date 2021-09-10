@@ -48,7 +48,7 @@
             "value": "",
             "required": true
         },
-        "AUTH_USERST": {
+        "AUTH_USERS": {
             "description": "Create a list of User Ids to use this bot(ADMINS). Seperate by space",
             "value": "",
             "required": true
