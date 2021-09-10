@@ -13,7 +13,6 @@ from handlers.database import Database
 
 LOG_CHANNEL = config.LOG_CHANNEL
 AUTH_USERS = config.AUTH_USERS
-AUTH_USERS = config.AUTH_USERS
 DB_URL = config.DB_URL
 DB_NAME = config.DB_NAME
 
