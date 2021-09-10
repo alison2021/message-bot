@@ -1,6 +1,6 @@
 {
-    "name": "BROADCAST BOT",
-    "description": "A simple Telegram bot that can broadcast messages and media to the bot subscribers. with mongo DB support.",
+    "name": "message",
+    "description": "A simple.",
     "logo": "",
     "keywords": [
         "Pyrogram",
@@ -9,7 +9,7 @@
         "Telegram Bot",
         "NacBots"
     ],
-    "website": "https://t.me/NacBots",
+    "website": "https://t.me/mrbotslist",
     "repository": "",
     "success_url": "",
     "env": {
@@ -39,8 +39,8 @@
             "required": true
         },
         "DB_NAME": {
-            "description": "A database name without white space(example : broadcastbot)",
-            "value": "NACBots",
+            "description": "A database name without white space(example : message)",
+            "value": "",
             "required": false
         },
         "AUTH_USERS": {
