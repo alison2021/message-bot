@@ -47,14 +47,10 @@ async def startprivate(client, message):
     joinButton = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/nacbots"),
-                InlineKeyboardButton(
-                    "SUPPORT GROUP", url="https://t.me/n_a_c_bot_developers"
-                ),
-            ]
+                InlineKeyboardButton("CHANNEL", url="http://bit.ly/almursalat-ch")             
         ]
     )
-    welcomed = f"Hey <b>{message.from_user.first_name}</b>\nI'm a simple Telegram bot that can broadcast messages and media to the bot subscribers. Made by @NACBOTS.\n\n 🎚 use /settings"
+    welcomed = f"<b>খিলাফাহ'র নুসরতে আমরা সদা প্রস্তুত...</b>"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
 
@@ -108,7 +104,7 @@ async def ban(c, m):
         return
     if len(m.command) == 1:
         await m.reply_text(
-            f"Use this command to ban 🛑 any user from the bot 🤖.\n\nUsage:\n\n`/ban_user user_id ban_duration ban_reason`\n\nEg: `/ban_user 1234567 28 You misused me.`\n This will ban user with id `1234567` for `28` days for the reason `You misused me`.",
+            f"Use this command to ban 🛑 any user from the bot .\n\nUsage:\n\n`/ban_user user_id ban_duration ban_reason`\n\nEg: `/ban_user 1234567 28 You misused me.`\n This will ban user with id `1234567` for `28` days for the reason `You misused me`.",
             quote=True,
         )
         return
@@ -122,7 +118,7 @@ async def ban(c, m):
         try:
             await c.send_message(
                 user_id,
-                f"You are Banned 🚫 to use this bot for **{ban_duration}** day(s) for the reason __{ban_reason}__ \n\n**Message from the admin 🤠**",
+                f"You are Banned 🚫 to use this bot for **{ban_duration}** day(s) for the reason __{ban_reason}__ \n\n**Message from the admin **",
             )
             ban_log_text += "\n\nUser notified successfully!"
         except BaseException:
@@ -148,7 +144,7 @@ async def unban(c, m):
         return
     if len(m.command) == 1:
         await m.reply_text(
-            f"Use this command to unban 😃 any user.\n\nUsage:\n\n`/unban_user user_id`\n\nEg: `/unban_user 1234567`\n This will unban user with id `1234567`.",
+            f"Use this command to unban  any user.\n\nUsage:\n\n`/unban_user user_id`\n\nEg: `/unban_user 1234567`\n This will unban user with id `1234567`.",
             quote=True,
         )
         return
