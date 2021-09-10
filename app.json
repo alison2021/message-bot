@@ -48,11 +48,6 @@
             "value": "",
             "required": true
         },
-        "AUTH_USERS": {
-            "description": "Create a list of User Ids to use this bot(ADMINS). Seperate by space",
-            "value": "",
-            "required": true
-        },
         "LOG_CHANNEL": {
             "description": "ID of a Channel which you want to RECEIVE LOGS.",
             "value": "",
