@@ -52,7 +52,7 @@ async def startprivate(client, message):
             ]
         ]
     )
-    welcomed = f"<b>{message.from_user.first_name}</b>\n *join almursalat media updates channel*\n\n[খিলাফাহ'র নুসরতে আমরা সদা প্রস্তুত...]"
+    welcomed = f"<b>{message.from_user.first_name}</b>\n\n **join almursalat media updates channel**\n\n**খিলাফাহ'র নুসরতে আমরা সদা প্রস্তুত...**"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
 
