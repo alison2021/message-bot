@@ -52,7 +52,7 @@ async def startprivate(client, message):
             ]
         ]
     )
-    welcomed = f"<b>{message.from_user.first_name}</b>\n\n **join almursalat media updates channel**\n\n**খিলাফাহ'র নুসরতে আমরা সদা প্রস্তুত...**"
+    welcomed = f"<b>{message.from_user.first_name}</b><b>{message.from_user.last_name}</b>\n\n **Jᴏɪɴ AlMursalat  Media Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ**"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
 
@@ -153,7 +153,7 @@ async def unban(c, m):
 
     try:
         user_id = int(m.command[1])
-        unban_log_text = f"Unbanning user 🤪 {user_id}"
+        unban_log_text = f"Unbanning user {user_id}"
 
         try:
             await c.send_message(user_id, f"Your ban was lifted!")
