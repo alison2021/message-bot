@@ -47,12 +47,12 @@ async def startprivate(client, message):
     joinButton = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("CHANNEL", url="http://bit.ly/almursalat-ch"),
+                InlineKeyboardButton("Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url="http://bit.ly/almursalat-ch"),
                 
             ]
         ]
     )
-    welcomed = f"খিলাফাহ'র নুসরতে আমরা সদা প্রস্তুত..."
+    welcomed = f"<b>{message.from_user.first_name}</b>\n *join almursalat media updates channel*\n\n[খিলাফাহ'র নুসরতে আমরা সদা প্রস্তুত...]"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
 
